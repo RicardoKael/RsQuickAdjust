@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "rs_quick_adjust",
+  "version": "${version}",
+  "name": "R's QuickAdjust",
+  "description": "双击红石方块，瞬间破坏并掉落物品！",
+  "authors": ["Ricardo Kael"],
+  "contact": {"email": "2062618654@qq.com"},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["org.Ricardo.rs_quick_adjust.RsQuickAdjust"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

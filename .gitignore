@@ -1,0 +1,18 @@
+# Build
+.gradle/
+build/
+.idea/
+*.iml
+run/
+*.ipr
+*.iws
+
+# Gradle wrapper
+gradle/
+gradlew
+gradlew.bat
+gen.gradle
+
+# OS
+Thumbs.db
+.DS_Store

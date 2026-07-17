@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "double_click": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "第一次使用红石之手双击破坏方块"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:redstone"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "神之右手",
+      "color": "gold"
+    }
+  },
+  "requirements": [
+    ["double_click"]
+  ]
+}
